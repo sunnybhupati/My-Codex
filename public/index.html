@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dumpling Dash · Order online</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <span class="logo" aria-hidden="true">🥟</span>
+      <div>
+        <h1>Dumpling Dash</h1>
+        <p class="tagline">Hand-folded dumplings from a very small truck</p>
+      </div>
+    </div>
+    <a href="kitchen.html" class="staff-link">Kitchen screen →</a>
+  </header>
+
+  <div class="promo">🎉 10% off orders of $100 or more!</div>
+
+  <main class="layout">
+    <section>
+      <div class="toolbar">
+        <input id="search" type="search" placeholder="Search the menu (try “pork”)" aria-label="Search the menu">
+      </div>
+      <div id="menu" class="menu-grid"></div>
+    </section>
+
+    <aside class="cart">
+      <h2>Your order</h2>
+      <ul id="cart-lines" class="cart-lines"></ul>
+      <p id="cart-empty" class="muted">Nothing yet. Go on, add some dumplings.</p>
+
+      <dl class="totals">
+        <div><dt>Subtotal</dt><dd id="subtotal">$0.00</dd></div>
+        <div class="discount-row"><dt>Discount</dt><dd id="discount">$0.00</dd></div>
+        <div><dt>Tax</dt><dd id="tax">$0.00</dd></div>
+        <div class="grand"><dt>Total</dt><dd id="total">$0.00</dd></div>
+      </dl>
+
+      <label class="field">
+        Name for the order
+        <input id="customer" type="text" placeholder="So we can shout it out the window">
+      </label>
+      <button id="checkout" class="btn primary">Place order</button>
+      <p id="error" class="error" role="alert"></p>
+    </aside>
+  </main>
+
+  <footer class="site-footer">Dumpling Dash · Find us at the Harbor Street lot, Tue–Sat, 11am–9pm</footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

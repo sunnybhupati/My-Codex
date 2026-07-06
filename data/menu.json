@@ -1,0 +1,102 @@
+[
+  {
+    "id": "pork-potstickers",
+    "name": "Pork & Chive Potstickers",
+    "description": "Pan-fried, crispy bottoms, juicy middles. Six per order.",
+    "price": 9.5,
+    "tags": ["potsticker", "pork", "bestseller"],
+    "emoji": "🥟",
+    "color": "#f6c89f",
+    "soldOut": false
+  },
+  {
+    "id": "chicken-potstickers",
+    "name": "Chicken Ginger Potstickers",
+    "description": "Chicken, ginger and scallion. Six per order.",
+    "price": 9.0,
+    "tags": ["potsticker", "chicken"],
+    "emoji": "🥟",
+    "color": "#f3d9a4",
+    "soldOut": false
+  },
+  {
+    "id": "veggie-dumplings",
+    "name": "Garden Veggie Dumplings",
+    "description": "Steamed. Cabbage, carrot, shiitake and glass noodles.",
+    "price": 8.5,
+    "tags": ["vegetarian", "steamed"],
+    "emoji": "🥬",
+    "color": "#cfe3b6",
+    "soldOut": false
+  },
+  {
+    "id": "soup-dumplings",
+    "name": "Soup Dumplings",
+    "description": "Xiao long bao with rich pork broth inside. Bite carefully.",
+    "price": 12.95,
+    "tags": ["pork", "steamed", "bestseller"],
+    "emoji": "🍲",
+    "color": "#f2b8a0",
+    "soldOut": false
+  },
+  {
+    "id": "truffle-dumplings",
+    "name": "Truffle Mushroom Dumplings",
+    "description": "Wild mushrooms and black truffle oil. Small batch, sells out fast.",
+    "price": 14.75,
+    "tags": ["vegetarian", "steamed", "special"],
+    "emoji": "🍄",
+    "color": "#d9c6b0",
+    "soldOut": true
+  },
+  {
+    "id": "spicy-wontons",
+    "name": "Chili Oil Wontons",
+    "description": "Pork wontons in Lin's house chili oil. Properly spicy.",
+    "price": 10.25,
+    "tags": ["pork", "spicy"],
+    "emoji": "🌶️",
+    "color": "#f4a68c",
+    "soldOut": false
+  },
+  {
+    "id": "scallion-pancake",
+    "name": "Scallion Pancake",
+    "description": "Flaky, layered, cut into wedges with soy-vinegar dip.",
+    "price": 6.75,
+    "tags": ["vegetarian", "side"],
+    "emoji": "🥞",
+    "color": "#efe0a8",
+    "soldOut": false
+  },
+  {
+    "id": "sesame-noodles",
+    "name": "Cold Sesame Noodles",
+    "description": "Wheat noodles, sesame-peanut sauce, cucumber ribbons.",
+    "price": 8.95,
+    "tags": ["vegetarian", "side"],
+    "emoji": "🍜",
+    "color": "#e8cfa0",
+    "soldOut": false
+  },
+  {
+    "id": "mango-mochi",
+    "name": "Mango Mochi",
+    "description": "Three soft mochi with mango cream.",
+    "price": 4.5,
+    "tags": ["dessert", "vegetarian"],
+    "emoji": "🍡",
+    "color": "#fbd99a",
+    "soldOut": true
+  },
+  {
+    "id": "jasmine-tea",
+    "name": "Iced Jasmine Tea",
+    "description": "Brewed every morning, lightly sweet.",
+    "price": 3.85,
+    "tags": ["drink"],
+    "emoji": "🧋",
+    "color": "#d7e8c8",
+    "soldOut": false
+  }
+]

@@ -146,4 +146,8 @@ document.getElementById("cart-lines").addEventListener("click", (e) => {
 
 document.getElementById("checkout").addEventListener("click", checkout);
 
+if (new Date().getDay() === 2) {
+  document.getElementById("tuesday").hidden = false;
+}
+
 loadMenu();

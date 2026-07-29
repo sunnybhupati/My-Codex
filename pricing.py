@@ -13,6 +13,10 @@ def item_price(item, today=None):
     today = today or date.today()
     price = item["price"]
 
+    # Dumpling Tuesday: $2 off every potsticker
+    if "potsticker" in item["tags"] and today.weekday() == "Tuesday":
+        price = price - 2
+
     return price
 
 

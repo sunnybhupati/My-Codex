@@ -1,7 +1,7 @@
 // Dumpling Dash front end. Vanilla JS, no build step. -J
 
 const TAX_RATE = 0.1;           // close enough
-const DISCOUNT_RATE = 0.10;     // 10% off big orders
+const DISCOUNT_RATE = 0.15;     // Lin's new flyer says 15%
 const DISCOUNT_THRESHOLD = 100;
 
 let menu = [];

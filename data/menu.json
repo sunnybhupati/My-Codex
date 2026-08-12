@@ -7,7 +7,7 @@
     "tags": ["potsticker", "pork", "bestseller"],
     "emoji": "🥟",
     "color": "#f6c89f",
-    "soldOut": false
+    "available": true
   },
   {
     "id": "chicken-potstickers",
@@ -17,7 +17,7 @@
     "tags": ["potsticker", "chicken"],
     "emoji": "🥟",
     "color": "#f3d9a4",
-    "soldOut": false
+    "available": true
   },
   {
     "id": "veggie-dumplings",
@@ -27,7 +27,7 @@
     "tags": ["vegetarian", "steamed"],
     "emoji": "🥬",
     "color": "#cfe3b6",
-    "soldOut": false
+    "available": true
   },
   {
     "id": "soup-dumplings",
@@ -37,7 +37,7 @@
     "tags": ["pork", "steamed", "bestseller"],
     "emoji": "🍲",
     "color": "#f2b8a0",
-    "soldOut": false
+    "available": true
   },
   {
     "id": "truffle-dumplings",
@@ -47,7 +47,7 @@
     "tags": ["vegetarian", "steamed", "special"],
     "emoji": "🍄",
     "color": "#d9c6b0",
-    "soldOut": true
+    "available": false
   },
   {
     "id": "spicy-wontons",
@@ -57,7 +57,7 @@
     "tags": ["pork", "spicy"],
     "emoji": "🌶️",
     "color": "#f4a68c",
-    "soldOut": false
+    "available": true
   },
   {
     "id": "scallion-pancake",
@@ -67,7 +67,7 @@
     "tags": ["vegetarian", "side"],
     "emoji": "🥞",
     "color": "#efe0a8",
-    "soldOut": false
+    "available": true
   },
   {
     "id": "sesame-noodles",
@@ -77,7 +77,7 @@
     "tags": ["vegetarian", "side"],
     "emoji": "🍜",
     "color": "#e8cfa0",
-    "soldOut": false
+    "available": true
   },
   {
     "id": "mango-mochi",
@@ -87,7 +87,7 @@
     "tags": ["dessert", "vegetarian"],
     "emoji": "🍡",
     "color": "#fbd99a",
-    "soldOut": true
+    "available": false
   },
   {
     "id": "jasmine-tea",
@@ -97,6 +97,6 @@
     "tags": ["drink"],
     "emoji": "🧋",
     "color": "#d7e8c8",
-    "soldOut": false
+    "available": true
   }
 ]

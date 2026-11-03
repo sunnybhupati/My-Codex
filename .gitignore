@@ -1,0 +1,8 @@
+# Local order history; a missing file is treated as an empty order list.
+/data/orders.json
+
+# Local Python environment and generated caches.
+/.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
